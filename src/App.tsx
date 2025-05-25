@@ -3,7 +3,7 @@ import { About } from '../components/About'
  
 const App = () => {
   return (
-    <div className='bg-[#2E2E2E] text-[#F3F3F3] '>
+    <div className='bg-[#1A202C] text-[#E2E8F0] '>
       <DropDown />
       <About />
     </div>

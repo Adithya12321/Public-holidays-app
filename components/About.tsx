@@ -3,8 +3,8 @@ import { useState } from 'react'
 export const About = () => {
     const [showModal, setShowModal] = useState(false)
   return (
-    <div className='fixed top-2 right-2 border rounded'>
-        <button onClick={() => setShowModal(!showModal)} className='hover:drop-shadow-[0_0_4px_rgba(250,250,250,1)]'>about</button>
+    <div className='fixed top-2 right-2 border rounded-full w-6 text-center'>
+        <button onClick={() => setShowModal(!showModal)} className='hover:drop-shadow-[0_0_4px_rgba(250,250,250,1)]'><strong>i</strong></button>
         {
             showModal && (
                 <div className='flex justify-center items-center fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-9/10 aspect-square  backdrop-blur-lg'>
